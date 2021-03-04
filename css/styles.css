@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  float: left;
+}
+
+
+#navigation-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100px;
+  
+}
+
+.navigation-bar {
+  height: 70px;
+  width: 100%;
+  text-align:center;
+  vertical-align: top;
+  display: inline-block;
+}
+.navigation-bar img{
+float:left;
+}
+
+.navigation-bar ul {
+  padding: 0px;
+  margin-left: 30%;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline-flex;
+  
+}
+
+.navigation-bar li a {
+  color: #002A00;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.9;
+}
+
+#menu {
+  float: right;
+}
+h1 {
+    color: #002A00;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+.content {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:18px;
+    background-color: white;
+    text-align: left;
+    width: 56%;
+    padding-top: 150px;
+    float: right;
+    vertical-align: top;
+    line-height: 37px;
+    
+}
+
+button{
+  background-color: #002A00;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+#button2{
+  background-color: #002A00;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 200px;
+  text-align: center;
+}
+
+.cssChange {
+  background-color: #245425;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  
+  
+}
+
+
+
+p.one{
+    font-size: 25px;
+    color: #002A00;
+}
+
+p.two{
+    font-size: 20px;
+    color: #002A00;
+    opacity: 0.9;
+  
+}
+.heroImg{
+    height: 600px; 
+    padding: 25px;
+    
+}
+#image{
+    height: 90%; 
+    width: auto;
+    margin: 5% 0% 0% 9%;
+}
+
+.mySkills{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #002A00;
+  width: 100%;
+  padding: 25px;
+  margin-top: 9%;
+
+}
+
+.flexContainer{
+display: flex;
+width: 80%;
+margin: auto;
+
+
+
+}
+
+.skillImage{
+  width: 150px;
+
+}
+
+.figma{
+  width: 20%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 75px;
+  text-decoration-line: underline;
+  color: #002A00;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.sketch{
+  width: 20%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 75px;
+  text-decoration-line: underline;
+  color: #002A00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.invision{
+  width: 20%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 75px;
+  text-decoration-line: underline;
+  color: #002A00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adobe{
+  width: 20%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 75px;
+  text-decoration-line: underline;
+  color: #002A00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.invStudio{
+  width: 20%;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 75px;
+  text-decoration-line: underline;
+  color: #002A00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myWork{
+
+width: 100%;
+margin-top: 9%;
+padding: 25px;
+
+
+
+}
+
+.workGrid{
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #002A00; 
+  width: 100%;
+  display: grid;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "airbnb  airImg"
+    "cca ccaImg"
+    "cnib cnibImg";
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    column-gap: 40px;
+    row-gap: 40px;
+    /* overflow: hidden; */
+
+    
+    
+ 
+}
+
+.airbnb {
+text-align: left;
+padding-left: 100px;
+grid-area: airbnb;
+
+
+}
+
+.airImg{
+  grid-area: airImg;
+  padding-right: 100px;
+
+
+
+}
+
+.cca{
+  text-align: left;
+  grid-area: cca;
+  padding-left: 100px;
+
+ 
+}
+
+.ccaImg{
+  grid-area: ccaImg;
+  padding-right: 100px;
+}
+ 
+.cnib{
+  text-align: left;
+  padding-left: 100px;
+  grid-area: cnib;
+}
+
+.cnibImg{
+  grid-area: cnibImg;
+  padding-right: 100px;
+}
+
+h2{
+  color: #002A00;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+h3{
+  color: #002A00;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+p{
+  font-size: 20px;
+  color: #245425;
+  font-weight: regular;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+
+footer {
+    margin-top:100px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3px;
+    background-color: whitesmoke;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    
+    
+
+}
+
+.footerContent {
+    padding: 1%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+.myWork{
+  width: 100%;
+  flex-direction: column;
+}
+ .workGrid{
+   width: 100%;
+   grid-template-rows: 300px 300px 300px;
+   grid-template-columns: 1fr;
+   grid-template-areas: 
+   "airbnb"
+   "airImg"
+   "cca"
+   "ccaImg"
+   "cnib"
+   "cnibImg"
+   ;
+ }
+  
+}
